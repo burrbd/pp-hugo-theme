@@ -1,0 +1,9 @@
+<div id="nav">
+	<ul>
+		{{range .}}
+		<li id="{{.Identifier}}">
+			<a href="{{.URL}}"><span>{{.Name}}</span></a>
+		</li>
+		{{end}}
+	</ul>
+</div>

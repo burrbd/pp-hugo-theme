@@ -1,0 +1,14 @@
+<ul>
+	<li>News topics
+		<ul>
+			{{range first 15 .Site.Taxonomies.tags.ByCount}}
+				{{$url := printf "/tags/%s/" .Name}}
+				{{if eq $.URL $url}}
+				<li>{{.Name }} (*)</li>
+				{{else}}
+				<li><a href="/tags/{{.Name | urlize}}">{{.Name }} ({{.Count}})</a></li>
+				{{end}}
+			{{end}}
+		</ul>
+	</li>
+</ul>

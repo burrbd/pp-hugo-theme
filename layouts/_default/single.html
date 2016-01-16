@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "head.html" . }}
+	<body>
+		<div id="wrapper">
+			{{ partial "header.html" . }}
+			<div id="main">
+				<div id="aside">
+					{{partial "social-buttons.html" .}}
+					{{if eq .Type "news"}}
+						{{partial "tags.html" .}}
+					{{end}}
+				</div>
+				<div id="contents">
+					{{if eq .Type "news"}}
+						<div class="date">{{.Date.Format "2 Jan 2006"}}</div>
+					{{end}}
+					<h1>{{.Title}}</h1>
+					{{.Content}}
+					{{if isset .Params "tags"}}
+						{{partial "article-tags.html" .}}
+					{{end}}
+				</div>
+			</div>
+			{{partial "newsletter.html" .}}
+			{{partial "footer.html" .}}
+		</div>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+.serif{font-family:"schoolbook-web-1","schoolbook-web-2",serif}
+.sans_serif{font-family:"myriad-pro-1","myriad-pro-2",sans-serif}
+.regular_font{font-family:"schoolbook-web-1","schoolbook-web-2",serif;font-weight:400;font-size:13px;color:#5a5a54}
+.small_font{font-size:10px;line-height:15px}
+.meta_font{font-size:10px;line-height:15px;font-family:"myriad-pro-1","myriad-pro-2",sans-serif;text-transform:uppercase;letter-spacing:.2em;word-spacing:.2em}
+.heading_font{font-family:"schoolbook-web-1","schoolbook-web-2",serif;font-weight:normal}
+h1,h2,h3,h4,h5,h6{font-family:"schoolbook-web-1","schoolbook-web-2",serif;font-weight:normal;color:#83bcb7;font-weight:normal}
+h1{font-size:24px}
+h3{font-size:18px}
+a{text-decoration:none;color:#83bcb7}a:link{color:#83bcb7}
+a:visited{color:#83bcb7}
+a:hover{color:#000}
+a:active{color:#000}
+p,ul,h1,h2,h3,h4,h5,h6,#contents img{margin:0 0 10px 0}
+img{vertical-align:bottom}
+li{padding:0;margin:0}
+ul{list-style-type:square;margin-left:0;padding-left:0}
+body{line-height:20px;font-family:"schoolbook-web-1","schoolbook-web-2",serif;font-weight:400;font-size:13px;color:#5a5a54}body #wrapper{margin:0 auto;margin-top:15px;width:700px}body #wrapper #header{margin-top:10px;height:180px;width:700px;position:relative}body #wrapper #header #logo{width:140px;position:absolute}body #wrapper #header #logo img{position:relative}
+body #wrapper #header #nav{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:absolute;width:780px;bottom:40px}body #wrapper #header #nav ul{list-style-type:none}
+body #wrapper #header #nav li{float:left;margin-right:60px;background:url(/images/nav_sprite.png) top left no-repeat;height:60px}body #wrapper #header #nav li a,body #wrapper #header #nav li.active{display:block;text-align:center}body #wrapper #header #nav li a span,body #wrapper #header #nav li.active span{text-align:center;position:relative;bottom:-70px;font-size:10px;line-height:15px;font-family:"myriad-pro-1","myriad-pro-2",sans-serif;text-transform:uppercase;letter-spacing:.2em;word-spacing:.2em}
+body #wrapper #header #nav li.active span{color:#000}
+body #wrapper #header #nav li a{color:#83bcb7;height:80px;display:block}
+body #wrapper #header #nav li a:hover span{color:#000}
+body #wrapper #header #nav li#home{width:78px;background-position:0 -300px}
+body #wrapper #header #nav li#blog{width:38px}
+body #wrapper #header #nav li#shop{width:56px;background-position:0 -60px}
+body #wrapper #header #nav li#bespoke{width:62px;background-position:0 -120px}
+body #wrapper #header #nav li#about{width:84px;background-position:0 -180px}
+body #wrapper #header #nav li#contact{width:52px;background-position:0 -240px}
+body #wrapper #main{border-top:1px dashed #cdcec0;padding-top:49px;overflow:auto}body #wrapper #main #contents{width:540px;float:right}body #wrapper #main #contents .entry{margin-bottom:10px}
+body #wrapper #main #contents .first_entry{padding-top:20px}
+body #wrapper #main #home_contents{width:700px;float:left}body #wrapper #main #home_contents .entry{margin-bottom:10px}
+body #wrapper #main #home_contents .first_entry{padding-top:20px}
+body #wrapper #main #aside{width:140px;float:left}body #wrapper #main #aside ul{list-style-type:none}
+body #wrapper #main #aside span.current{color:#5a5a54}body #wrapper #main #aside span.current span{color:inherit;position:relative;font-size:180%;line-height:0;bottom:-0.35em;font-family:"myriad-pro-1","myriad-pro-2",sans-serif}
+body #wrapper #main #aside li{font-style:italic}body #wrapper #main #aside li ul li{font-style:normal}body #wrapper #main #aside li ul li span{color:#cdcec0}
+body #wrapper #main #aside li .current a{color:#5a5a54}
+body #wrapper #main #pagination{font-family:"myriad-pro-1","myriad-pro-2",sans-serif;text-align:center;clear:both;width:540px;float:right;font-size:12px;margin-top:20px;margin-bottom:20px;line-height:40px}body #wrapper #main #pagination span,body #wrapper #main #pagination a{margin:0 3.3333333333333335px;border:1px dotted #e2e3d3;padding:8px}
+body #wrapper #main #pagination a:hover{border-color:#cdcec0}
+div#home_social_buttons{position:relative;top:20px}
+.social-buttons{height:40px;margin-bottom:10px}.social-buttons a{display:block;float:left;height:35px;width:28px;margin-right:5px;background:url(/images/social-sprite.png) top left no-repeat}.social-buttons a span{display:none}
+.social-buttons a:hover{background-position:-28px 0}
+.social-buttons a.facebook{background-position:0 -70px}
+.social-buttons a:hover.facebook{background-position:-28px -70px}
+.social-buttons a.twitter{background-position:0 -35px}
+.social-buttons a:hover.twitter{background-position:-28px -35px}
+div#newsletter{width:540px;text-align:right;float:right;margin-top:20px}div#newsletter input{width:140px;font-size:10px;line-height:15px;font-size:12px;line-height:20px;padding:1px 5px}
+div#newsletter input.button{font-size:10px;line-height:15px;height:25px;padding:0 5px;margin:0;width:inherit}
+div#newsletter span{font-size:10px;line-height:15px;font-family:"myriad-pro-1","myriad-pro-2",sans-serif;text-transform:uppercase;letter-spacing:.2em;word-spacing:.2em}
+#footer{margin-bottom:80px;margin-top:20px;padding-top:19px;border-top:1px dashed #cdcec0;width:540px;float:right;color:#cdcec0;font-family:"myriad-pro-1","myriad-pro-2",sans-serif;font-size:10px;line-height:15px}
+body.home #footer{float:left;width:700px}
+.date,.meta,label,input.button{color:#cdcec0;text-transform:uppercase;font-size:10px;letter-spacing:.2em;word-spacing:.2em;font-family:"myriad-pro-1","myriad-pro-2",sans-serif}
+input.button{cursor:pointer}
+input,textarea{width:460px;border:0;margin:0;padding:12px 10px 8px;font-size:22px;line-height:30px;border:1px dashed #cdcec0;border-radius:2px;font-family:"schoolbook-web-1","schoolbook-web-2",serif;color:#5a5a54;margin-bottom:7px}
+input[type='checkbox']{width:inherit}
+input{height:20px}
+input.button{background-color:#83bcb7;color:#fff;width:inherit;font-weight:bold;height:30px;padding:0 10px 10px;vertical-align:center;margin:10px 0 0 0}
+textarea{max-width:460px;min-width:460px;height:140px}
+ul.error{color:#f55;list-style:none;font-family:"myriad-pro-1","myriad-pro-2",sans-serif}
+body.about #contents img{float:left;margin:10px 10px 10px 0;clear:both}body.about #contents img:first-child{float:none}
+.slides{position:relative}
+.slides_container{width:100%}
+.slides_container div{width:100%;height:360px;display:block}
+.slides .pagination{margin:0 auto}
+.slides .pagination li{list-style:none;float:left;margin-right:3px}
+.slides .pagination li.current a{background:#dceae6}
+.slides .pagination a{margin-top:10px;color:transparent;display:block;width:9px;height:9px;overflow:hidden;border-radius:5px;border:1px solid #dceae6;background:#fff}
+.slides .next,.slides .prev{position:absolute;font-family:"myriad-pro-1","myriad-pro-2",sans-serif;font-size:12px;font-weight:bold;z-index:100;height:360px;width:265px;top:0;line-height:360px;padding-left:5px;color:transparent}
+.slides .next{right:0;text-align:right;padding-right:5px}
+.slides .next:hover,.slides .prev:hover{color:#fff;text-shadow:0 0 4px rgba(50,50,50,0.8)}
+#contents .project{clear:both;padding-top:20px;margin-top:49px;border-top:1px dashed #cdcec0}
+#contents .first{padding-top:20px;margin-top:20px}
+table{width:100%;font-family:"myriad-pro-1","myriad-pro-2",sans-serif}
+th,td{padding:2px 5px}
+th,td{text-align:left}
+td.center_cell{text-align:center}
+tr:nth-child(2n){background-color:#dceae6}
+#posts_admin td,#posts_admin tr{background-color:inherit}
+#posts_admin tr:nth-child(4n+2){background-color:#dceae6}
+#posts_admin tr:nth-child(4n+3) td.post_text{background-color:#dceae6}
+#posts_admin th:first-child{width:140px}
+#posts_admin th:nth-child(0n+2){width:300px}
+#posts_admin th:first-child,#posts_admin th:nth-child(0n+2),#posts_admin td:first-child,#posts_admin td:nth-child(0n+2){text-align:left}
+#posts_admin tr td:first-child{font-style:italic}
+#posts_admin th,#posts_admin td{vertical-align:middle;text-align:center}
+#posts_admin td.post_text{font-family:"schoolbook-web-1","schoolbook-web-2",serif;font-size:inherit;font-style:inherit !important}
+#subscriber_admin td,#subscriber_admin th{text-align:center}
+#subscriber_admin td:first-child,#subscriber_admin th:first-child{width:55%;text-align:left}
+span.add_link{font-size:12px}
+#messages{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:none;position:fixed;width:700px;z-index:100;background-color:rgba(220,234,230,0.9);border-bottom-left-radius:10px;border-bottom-right-radius:10px;border:3px solid rgba(250,250,250,0.9);border-top:0;box-shadow:0 0 5px rgba(100,100,100,0.4);padding:0;margin:0}#messages div{margin:5px 20px;padding:10px 0 5px 0;font-family:"myriad-pro-1","myriad-pro-2",sans-serif;font-size:18px;color:#83bcb7;border-top:1px dashed rgba(250,250,250,0.9)}#messages div:first-child{border:0}
+#user_status{color:#83bcb7;position:fixed;font-family:"myriad-pro-1","myriad-pro-2",sans-serif;padding:10px 30px;right:0;top:0;z-index:100;background-color:rgba(220,234,230,0.9);border-bottom-left-radius:10px;border:3px solid rgba(250,250,250,0.9);border-top:0;border-right:0}
+body.post_form textarea#text{font-size:12px;line-height:14px;font-family:"Andale Mono",monospace}
