@@ -3,13 +3,12 @@
 
 name = "Prickle Press"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://github.com/burrbd/pp-hugo-theme/blob/master/LICENSE.md"
 description = "Theme used for pricklepress.co.uk"
-homepage = "http://siteforthistheme.com/"
+homepage = "http://pricklepress.co.uk/"
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.15
 
 [author]
   name = "Bay Dodd"
-  homepage = ""
