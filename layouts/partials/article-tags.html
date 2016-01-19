@@ -1,1 +1,1 @@
-<div class="meta">Tags {{range $i, $tag := .Params.tags}}{{if ne $i 0}}, {{end}}<a href="/tags/{{.|urlize}}">{{$tag}}</a>{{end}}</div>
+<div class="meta">Tags {{range $i, $tag := .Params.tags}}{{if ne $i 0}}, {{end}}<a href="{{$.Site.BaseURL}}tags/{{.|urlize}}">{{$tag}}</a>{{end}}</div>

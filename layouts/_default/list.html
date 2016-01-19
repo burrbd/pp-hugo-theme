@@ -18,7 +18,7 @@
 					<div class="entry{{if eq 0 $j}} first_entry{{end}}">
 						<div class="date">{{$p.Date.Format "2 Jan 2006"}}</div>
 						<h3>
-							<a class="permalink" href="{{ .Permalink }}">{{$p.Title}}</a>
+							<a class="permalink" href="{{.Permalink}}">{{$p.Title}}</a>
 						</h3>
 						<div class="content">
 							{{$p.Content}}

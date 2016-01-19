@@ -6,7 +6,7 @@
 				{{if eq $.URL $url}}
 				<li>{{.Name }} (*)</li>
 				{{else}}
-				<li><a href="/tags/{{.Name | urlize}}">{{.Name }} ({{.Count}})</a></li>
+				<li><a href="{{$.Site.BaseURL}}tags/{{.Name | urlize}}">{{.Name }} ({{.Count}})</a></li>
 				{{end}}
 			{{end}}
 		</ul>
