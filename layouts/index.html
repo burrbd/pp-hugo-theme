@@ -5,10 +5,46 @@
 		<div id="wrapper">
 			{{partial "header.html" .}}
 			<div id="main">
-			{{partial "home.html"}}
+				<div id="home_contents">
+					<div class="slides">
+						<div class="slides_container">
+							<div>
+								<img src="{{ .Site.BaseURL }}images/home/2.jpg"/>
+							</div>
+							<div>
+								<img src="{{ .Site.BaseURL }}images/home/3.jpg" />
+							</div>
+							<div>
+								<img src="{{ .Site.BaseURL }}images/home/4.jpg" />
+							</div>
+							<div>
+								<img src="{{ .Site.BaseURL }}images/home/5.jpg" />
+							</div>
+							<div>
+								<img src="{{ .Site.BaseURL }}images/home/6.jpg" />
+							</div>
+						</div>
+						<a href="#" class="prev">&#x21e0; PREV</a>
+						<a href="#" class="next">NEXT &#x21e2;</a>
+					</div>
+					<script type="text/javascript" src="http://static.pricklepress.co.uk/slides/slides.min.jquery.js"></script>
+					<script type="text/javascript">
+						$(function(){
+							$(".slides").slides({
+								preload: true,
+								play: 4000,
+								slideSpeed: 500,
+								preloadImage: "http://static.pricklepress.co.uk/images/ajax-loader.gif",
+							});
+						});
+					</script>
+				</div>
+				<div id="home_social_buttons">
+					{{partial "social-buttons.html" .}}
+				</div>
+				{{partial "newsletter.html" .}}
+				{{partial "footer.html" .}}
 			</div>
-			{{partial "newsletter.html" .}}
-			{{partial "footer.html" .}}
 		</div>
 	</body>
 </html>
