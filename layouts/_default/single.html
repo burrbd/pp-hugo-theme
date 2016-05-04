@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	{{ partial "head.html" . }}
-	<body>
+	<body{{if .IsPage}} class="{{.Slug}}"{{end}}>
 		<div id="wrapper">
 			{{ partial "header.html" . }}
 			<div id="main">
