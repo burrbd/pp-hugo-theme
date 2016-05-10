@@ -1,14 +1,15 @@
 <head>
-	<base href="{{.Site.BaseURL}}" target="_blank">
+	<base href="{{.Site.BaseURL}}">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+	<title> {{.Title}} &middot; {{.Site.Title}} </title>
 	<script type="text/javascript" src="http://use.typekit.com/meg5luk.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/reset.css">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+	<script type="text/javascript" src="{{.Site.BaseURL}}js/script.js"></script>
+	<link rel="stylesheet" href="{{.Site.BaseURL}}css/reset.css">
+	<link rel="stylesheet" href="{{.Site.BaseURL}}css/style.css">
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseURL }}apple-touch-icon-144-precomposed.png">
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
 	<!-- RSS -->

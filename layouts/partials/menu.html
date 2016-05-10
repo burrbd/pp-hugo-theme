@@ -1,9 +1,9 @@
 <div id="nav">
 	<ul>
 		{{range .}}
-		<li id="{{.Identifier}}">
-			<a href="{{.URL}}"><span>{{.Name}}</span></a>
-		</li>
+			<li id="{{.Identifier}}">
+				<a href="{{if eq .Name "Bespoke"}}/tags/bespoke{{else}}{{.URL}}{{end}}"><span>{{.Name}}</span></a>
+			</li>
 		{{end}}
 	</ul>
 </div>
