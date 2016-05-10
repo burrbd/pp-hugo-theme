@@ -1,8 +1,8 @@
 <div id="nav">
 	<ul>
-		{{range .}}
+		{{range .Site.Menus.main}}
 			<li id="{{.Identifier}}">
-				<a href="{{if eq .Name "Bespoke"}}/tags/bespoke{{else}}{{.URL}}{{end}}"><span>{{.Name}}</span></a>
+				<a href="{{if eq .Name "Bespoke"}}{{$.Site.BaseURL}}tags/bespoke{{else}}{{.URL}}{{end}}"><span>{{.Name}}</span></a>
 			</li>
 		{{end}}
 	</ul>
