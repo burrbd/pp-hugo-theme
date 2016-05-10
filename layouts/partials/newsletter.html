@@ -1,7 +1,29 @@
 <div id="newsletter">
-	<form method="post" action="{{.Site.BaseURL}}subscribe/" accept-charset="UTF-8">
+	<form method="post" accept-charset="UTF-8">
 		<span>Sign up for our newsletter</span><br/>
 		<input id="email" name="email" placeholder="Enter your email" type="text" value="">
 		<input class="button" type="submit" value="Join"/>
 	</form>
 </div>
+
+<script type="text/javascript">
+
+$( "#newsletter > form" ).submit(function( event ) {
+	var email = $("input:first").val();
+	if (!isValidEmail(email)) {
+		flashMsg('Oops. Your email address is not valid');
+		return false;
+	}
+
+	var payload = JSON.stringify({"email_address" : email});
+
+	$.post({{.Site.Data.Newsletter.URL}}, payload, function(data) {
+		flashMsg('Great. You’re now signed up to get our newsletter');
+	}).fail(function (data) {
+		flashMsg('Oops. There was a problem signing you up');
+	});
+
+	event.preventDefault();
+});
+
+</script>
