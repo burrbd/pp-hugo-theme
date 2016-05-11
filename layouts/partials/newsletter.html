@@ -20,7 +20,8 @@ $( "#newsletter > form" ).submit(function( event ) {
 	$.post({{.Site.Data.Newsletter.URL}}, payload, function(data) {
 		flashMsg('Great. You’re now signed up to get our newsletter');
 	}).fail(function (data) {
-		flashMsg('Oops. There was a problem signing you up');
+		flashMsg('Hmm. Have you already signed up?');
+		console.log(data);
 	});
 
 	event.preventDefault();
