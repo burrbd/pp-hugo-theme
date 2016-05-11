@@ -10,10 +10,14 @@
 					{{partial "tags.html" .}}
 				</div>
 				<div id="contents">
-					<h1>News</h1>
-					{{if ne "News" .Title}}
-						<p>Viewing news items tagged as <b>{{.Title}}</b>
+					{{if eq "Bespoke" .Title}}
+						{{partial "bespoke-intro.html"}}
+					{{else}}
+						<h1>News</h1>
 					{{end}}
+					{{if ne "News" .Title}}{{if ne "Bespoke" .Title}}
+						<p>Viewing news items tagged as <b>{{.Title}}</b>
+					{{end}}{{end}}
 					{{range $j, $p := .Paginator.Pages}}
 					<div class="entry{{if eq 0 $j}} first_entry{{end}}">
 						<div class="date">{{$p.Date.Format "2 Jan 2006"}}</div>
