@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-	{{ partial "head.html" . }}
+	<head>
+		{{partial "title.html" .}}
+		{{partial "head.html" .}}
+	</head>
 	<body{{if ne .Type "news"}} class="{{.Slug}}"{{end}}>
 		<div id="wrapper">
 			{{ partial "header.html" . }}
